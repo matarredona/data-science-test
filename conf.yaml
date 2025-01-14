@@ -1,0 +1,20 @@
+---
+args:
+
+params:
+  days_number: 365
+  starting_date: "2024-01-01"
+  max_batches_per_day: 3
+  sc_quantity: 8
+  sc_size_avg: 120000
+  sc_size_sd: 20000
+  target_sc_rpc_pool_size: 5000
+  sc_shrinkage_rate_avg: 0.05
+  sc_shrinkage_rate_sd: 0.02
+  general_shrinkage_rate_avg: 0.12
+  general_shrinkage_rate_sd: 0.06
+  rpc_batch_avg_size: 500
+  rpc_batch_sd_size: 100
+  rpc_trip_avg_days_duration: 100
+  rpc_trip_sd_days_duration: 10
+...
